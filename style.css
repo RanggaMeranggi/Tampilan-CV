@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background :url(image/walpaper\ 4.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    position: relative;
+    text-align: center;
+    
+}
+
+header .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+header .wrapper h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 6px 4px rgb(0, 140, 140);
+    margin-bottom: 40px
+}
+
+header .wrapper img {
+    border-radius : 50%;
+    border: 8px solid rgb(0, 140, 140);
+    box-shadow:0 26px 24px 0px rgba(0,0,0,.7);
+    width: 40%;
+    transition: transform .5s ease-in-out
+}
+
+header .wrapper img:hover{
+    transform: scale(1.1);
+}
+
+header .wrapper ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header .wrapper ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 6px 4px rgb(0, 140, 140);
+    margin-bottom: 40px;
+    
+}
+
+
+header .wrapper ul li a:hover {
+    border-bottom: 5px solid white;
+
+}
+
+.introduction{
+    background-color:rgb(0, 170, 170);
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/Frame\ 4.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.introduction .wrapper{
+    width: 80%;
+}
+
+.introduction .wrapper h2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid black ;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+
+}
+
+.introduction .wrapper p{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    padding: 3%;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.abilities{
+    background-color:rgb(0, 170, 170);
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/Frame\ 5.png);
+    background-repeat: no-repeat;
+}
+
+.abilities .wrapper{
+    width: 80%;
+}
+.abilities .wrapper h2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid black ;
+    padding-bottom: 7px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+
+.abilities .wrapper-abilities{
+    text-align: left;
+}
+
+.abilities .wrapper-abilities h5{
+    color: white;
+    text-shadow: 0px 6px 4px black;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.abilities .wrapper-abilities .background{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.abilities .wrapper-abilities .background .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background: red;
+    z-index: 2;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.indicator.html{
+    width: 70%;
+}
+
+.indicator.css{
+    width: 50%;
+}
+
+.indicator.javascript{
+    width: 20%;
+}
+
+.education{
+    background-color:rgb(0, 170, 170);
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/Frame\ 3.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.education .wrapper h2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid black ;
+    padding-bottom: 7px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+
+
+.tabel1{
+    color: black;
+    border-collapse:collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+    font-size: 22px;
+    margin-top: 50px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    padding: 3%;
+    
+}
+
+.tabel1 tr th{
+    background: #35a9db;
+    color: #fff;
+    font-weight: normal;   
+}
+
+.tabel1, th, td {
+    padding: 50px 130px;
+    text-align: center;
+}
+
+.tabel1 tr:nth-child(even){
+    background: #86dcec;
+}
+
+.certificates{
+    background-color:rgb(0, 170, 170);
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.certificates .wrapper h2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid black ;
+    padding-bottom: 7px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+
+.certificates .wrapper .wrapper-certificates{
+    display: grid;
+    grid-gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper-certificates a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 6px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.languages{
+    background-color:rgb(0, 170, 170);
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/Frame\ 9.png);
+    background-repeat: no-repeat;
+    
+}
+
+.languages .wrapper{
+    width: 40%;
+}
+.languages .wrapper h2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #fcfcfc;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid black ;
+    padding-bottom: 7px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+
+.languages .wrapper-abilities{
+    text-align: left;
+}
+
+.languages .wrapper-languages h5{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: black;
+    color: white;
+    text-shadow: 0px 6px 4px black;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+
+}
+
+
+#contact{
+    background:rgb(0, 207, 214) ;
+    padding : 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin:0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
